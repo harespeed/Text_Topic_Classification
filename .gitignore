@@ -1,0 +1,101 @@
+*.pyc
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model checkpoints and logs
+bert-base-uncased-fine-tuned/
+bert-base-uncased-logs/
+optuna_trial_*/
+checkpoint-*/
+pytorch_model.bin
+config.json
+training_args.bin
+
+# Data cache
+data/
+*.arrow
+dataset_info.json
+state.json
+
+# Environment
+.env
+venv/
+.envrc
+
+# Visual Studio Code
+.vscode/
+*.swp
+*.swo
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+training_log.txt
+
+# Temporary files
+*.tmp
+*.temp
+
+# PDF documents
+*.pdf
+
+# Zip files
+*.zip
+
+# docx files
+*.docx
+
+# Model files
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+
+# Audio files
+*.mp3
+*.wav
+*.flac
+*.ogg
+
+# Compressed files
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+
+# Large data files
+*.npy
+*.npz
+*.hdf5
+*.h5
+
+# Excel files
+*.xlsx
+*.xls
